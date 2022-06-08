@@ -26,4 +26,35 @@ input {
 
 button {
   padding: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: #0f83fd;
+  text-decoration: none;
+}
+
+#result {
+  margin: 50px 0;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+thead th {
+  padding: 10px 15px;
+  border: 1px solid #cfdce6;
+  background: #edf2f7;
+}
+
+tr td {
+  padding: 10px 15px;
+  border: 1px solid #cfdce6;
+}
+
+.no_result p {
+  color: rgb(67, 114, 175);
+  font-weight: bold;
 }
