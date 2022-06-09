@@ -96,10 +96,8 @@ class GitHubApi {
 
   escapeHTML(strings, ...values) {
     return strings.reduce((result, str, i) => {
-      console.log(i);
       const val = values[i - 1];
       if (typeof value === 'string') {
-        console.log(result + this.escapeSpecialChars(val) + str);
         return result + this.escapeSpecialChars(val) + str;
       } else {
         return result + String(val) + str;
